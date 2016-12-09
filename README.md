@@ -10,5 +10,5 @@ Se trata de técnicas inéditas de análisis y determinación cuantitativa de ca
 ### Objetivos
 
 - [x] Desarrollo y testeo de la técnica de análisis de las características de las pátinas de los surcos en arte rupestre.
-- [] Desarrollo de algoritmos de automatización de dicha técnica empleando herramientas libres, incluyendo: correcciones y preparación de la imagen, transformación IHS, gráfico 3D y comparación del volumen obtenido con volumenes patrones.
-- [] Presentación de los resultados referentes a la antigüedad en forma cuantitativa.
+- [ ] Desarrollo de algoritmos de automatización de dicha técnica empleando herramientas libres, incluyendo: correcciones y preparación de la imagen, transformación IHS, gráfico 3D y comparación del volumen obtenido con volumenes patrones.
+- [ ] Presentación de los resultados referentes a la antigüedad en forma cuantitativa.
