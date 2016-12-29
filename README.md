@@ -1,6 +1,6 @@
 # CoDigAR
 
-"**Co**lorimetría **Dig**ital de **A**rte **R**upestre" / **AR**gentina: Técnicas y algoritmos de determnación cuantitativa de características de arte rupestre vinculadas con la antigüedad de las mismas, mediante el tratamiento de fotografías de las rocas en cuestión.
+"**Co**lorimetría **Dig**ital de **A**rte **R**upestre / **AR**gentina": Técnicas y algoritmos de determnación cuantitativa de características de arte rupestre vinculadas con la antigüedad de las mismas, mediante el tratamiento de fotografías de las rocas en cuestión.
 
 El usuario debe, a partir de una fotografía de la roca a analizar, determinar, rotular y extraer las muestras de interés mediante una herramienta de selección libre de un software de edición de imágenes, CoDigAR se encarga de:
 
@@ -33,7 +33,7 @@ Se trata de **técnicas inéditas de análisis y determinación cuantitativa de 
 
 | Acerca de CoDigAR | Acerca del equipo  | Guía de instalación y uso | Documentación técnica |
 |:--------:|:--------:|:--------:|:--------:|
-|    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/question-mark-6x.png?raw=true)]()     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/people-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/wrench-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/document-6x.png?raw=true)]()    |
+|    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/question-mark-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Acerca-de-CoDigAR)     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/people-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Acerca-del-equipo)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/wrench-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Gu%C3%ADa-de-instalaci%C3%B3n-y-uso)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/document-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Documentaci%C3%B3n-t%C3%A9cnica)    |
 
 ## Licencia
 
