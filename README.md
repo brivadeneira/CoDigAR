@@ -1,13 +1,14 @@
 # CoDigAR
 
-"**Co**lorimetría **Dig**ital de **A**rte **R**upestre": Técnicas y algoritmos de determnación cuantitativa de características de arte rupestre vinculadas con la antigûedad de las mismas, mediante el tratamiento de fotografías de las rocas en cuestión.
+"**Co**lorimetría **Dig**ital de **A**rte **R**upestre" / **AR**gentina: Técnicas y algoritmos de determnación cuantitativa de características de arte rupestre vinculadas con la antigüedad de las mismas, mediante el tratamiento de fotografías de las rocas en cuestión.
 
-El usuario debe, a partir de una fotografía  ![](http://)de la roca a analizar, determinar, rotular y extraer las muestras de interés mediante una herramienta de selección libre de un software de edición de imágenes, CoDigAR se encarga de:
+El usuario debe, a partir de una fotografía de la roca a analizar, determinar, rotular y extraer las muestras de interés mediante una herramienta de selección libre de un software de edición de imágenes, CoDigAR se encarga de:
 
 - Determinar y almacenar el código de colores presente en cada pixel de la muestra.
 - Convertir dicho código a RGB.
 - Analizar estadísticamente las propiedades de colorimetría de las muestras *(cuantificar las propiedades de las pátinas)*.
-- Exponer los resultados en un gráfico 3D.
+- Expone los resultados en un gráfico 3D.
+- Permite análisis cuantitativo, cualitativo y comparativo.
 
 ## Guía de uso rápido
 
@@ -30,8 +31,20 @@ Se trata de **técnicas inéditas de análisis y determinación cuantitativa de 
 
 ## Documentación
 
-
-
 | Acerca de CoDigAR | Equipo | Guía de instalación y uso | Documentación técnica |
-|--------|--------|--------|--------|
-|         |        |        |        |
+|:--------:|:--------:|:--------:|:--------:|
+|    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/question-mark-6x.png?raw=true)]()     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/people-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/wrench-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/document-6x.png?raw=true)]()    |
+
+## Licencia
+
+        				Copyright (C)  2016  CoDigAR.
+                        
+    	This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
+
+    	This program is distributed in the hope that it will be useful,
+    but WITHOUT ANY WARRANTY; without even the implied warranty of
+    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+    GNU General Public License for more details.
