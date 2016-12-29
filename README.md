@@ -31,7 +31,7 @@ Se trata de **técnicas inéditas de análisis y determinación cuantitativa de 
 
 ## Documentación
 
-| Acerca de CoDigAR | Equipo | Guía de instalación y uso | Documentación técnica |
+| Acerca de CoDigAR | Acerca del equipo  | Guía de instalación y uso | Documentación técnica |
 |:--------:|:--------:|:--------:|:--------:|
 |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/question-mark-6x.png?raw=true)]()     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/people-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/wrench-6x.png?raw=true)]()    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/iconos/document-6x.png?raw=true)]()    |
 
