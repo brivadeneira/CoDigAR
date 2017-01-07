@@ -13,7 +13,8 @@ El usuario debe, a partir de una fotografía de la roca a analizar, determinar, 
 
 Los resultados de la implementación de [CuanCTo](https://github.com/brivadeneira/CoDigAR/wiki/4.1-CuanCTo) para las siguientes tres muestras,
 
-![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/ar.png?raw=true) Arte rupestre
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/ar.png?raw=true)
+Arte rupestre - [Peñas Coloradas](https://es.wikiloc.com/wikiloc/view.do?id=1319853), dpto de Antofagasta de la Sierra, provincia de Catamarca, Argentina.
 
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/m0.png?raw=true) muestra 0, matriz (roca sin tallar), puntos rojos.
 
@@ -32,10 +33,10 @@ son:
 
 ### Requerimientos
 
-[Python](https://www.python.org/downloads/) 2.7.12
-[OpenCV](http://opencv.org/downloads.html)
-[numpy](http://www.numpy.org/)
-[matplotlib](http://matplotlib.org/1.4.3/mpl_toolkits/index.html)
+- [Python](https://www.python.org/downloads/) 2.7.12
+- [OpenCV](http://opencv.org/downloads.html)
+- [numpy](http://www.numpy.org/)
+- [matplotlib](http://matplotlib.org/1.4.3/mpl_toolkits/index.html)
 
 ### Sintaxis
 
@@ -70,7 +71,7 @@ Se trata de **técnicas inéditas de análisis y determinación cuantitativa de 
 
 | Acerca de CoDigAR | Acerca del equipo  | Guía de instalación y uso | Documentación técnica |
 |:--------:|:--------:|:--------:|:--------:|
-|    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/question-mark-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Acerca-de-CoDigAR)     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/people-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Acerca-del-equipo)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/wrench-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Gu%C3%ADa-de-instalaci%C3%B3n-y-uso)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/document-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/Documentaci%C3%B3n-t%C3%A9cnica)    |
+|    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/question-mark-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/1.-Acerca-de-CoDigAR)     |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/people-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/2.-Acerca-del-equipo)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/wrench-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/3.-Guía-de-instalación-y-uso)    |    [![](https://github.com/brivadeneira/CoDigAR/blob/master/img/iconos/document-6x.png?raw=true)](https://github.com/brivadeneira/CoDigAR/wiki/4.-Documentación-técnica)    |
 
 ## Licencia
 
