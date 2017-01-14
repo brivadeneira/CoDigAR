@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+<svg id="svg2" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" height="48" width="48" version="1.0" xmlns:cc="http://web.resource.org/cc/" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:dc="http://purl.org/dc/elements/1.1/">
+ <defs id="defs4">
+  <linearGradient id="linearGradient2238" y2="6.8023" gradientUnits="userSpaceOnUse" x2="10.445" gradientTransform="matrix(2.2353 0 0 2.2105 -.098675 -.81579)" y1="21" x1="10.445">
+   <stop id="stop4104" style="stop-color:#e8e8e8" offset="0"/>
+   <stop id="stop4106" style="stop-color:#fff" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient2240" y2=".98268" gradientUnits="userSpaceOnUse" x2="2.4052" gradientTransform="matrix(2.2353 0 0 2.2105 -.098675 -.81579)" y1="20.626" x1="2.4052">
+   <stop id="stop4112" style="stop-color:#888a85" offset="0"/>
+   <stop id="stop4114" style="stop-color:#acadaa" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5482" y2="18.466" gradientUnits="userSpaceOnUse" x2="8.3793" gradientTransform="matrix(2.4615 0 0 2.3408 -2.5874 -1.8041)" y1="14.338" x1="8.3793">
+   <stop id="stop7051" style="stop-color:#73d216" offset="0"/>
+   <stop id="stop7053" style="stop-color:#9ded4f;stop-opacity:.59649" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5484" y2="19.001" gradientUnits="userSpaceOnUse" x2="17.455" gradientTransform="matrix(2.4615 0 0 2.3408 -2.5874 -1.8041)" y1="8.5997" x1="17.455">
+   <stop id="stop6074" style="stop-color:#4e9a06" offset="0"/>
+   <stop id="stop6076" style="stop-color:#57ad06" offset="1"/>
+  </linearGradient>
+  <linearGradient id="linearGradient5486" y2="15.772" gradientUnits="userSpaceOnUse" x2="11.426" gradientTransform="matrix(2.5805 0 0 2.4545 -3.838 -3.5792)" y1="8.8749" x1="6.413">
+   <stop id="stop3158" style="stop-color:#fff" offset="0"/>
+   <stop id="stop3160" style="stop-color:#fff;stop-opacity:0" offset="1"/>
+  </linearGradient>
+  <filter id="filter8688" height="3.415" width="1.2489" y="-1.2075" x="-.12443">
+   <feGaussianBlur id="feGaussianBlur8690" stdDeviation="2.3640921"/>
+  </filter>
+ </defs>
+ <metadata id="metadata7">
+  <rdf:RDF>
+   <cc:Work rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <cc:license rdf:resource="http://creativecommons.org/licenses/LGPL/2.1/"/>
+    <dc:title>Invest</dc:title>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Vinicius Depizzol &lt;vdepizzol@gmail.com&gt;</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+   <cc:License rdf:about="http://creativecommons.org/licenses/LGPL/2.1/">
+    <cc:permits rdf:resource="http://web.resource.org/cc/Reproduction"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/Distribution"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/Notice"/>
+    <cc:permits rdf:resource="http://web.resource.org/cc/DerivativeWorks"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/ShareAlike"/>
+    <cc:requires rdf:resource="http://web.resource.org/cc/SourceCode"/>
+   </cc:License>
+  </rdf:RDF>
+ </metadata>
+ <g id="layer1">
+  <rect id="rect5488" style="opacity:.36111;filter:url(#filter8688)" transform="matrix(1.0263 0 0 1.0215 -.63402 -.45777)" rx="1.9077" ry="1.9166" height="3.9157" width="38" y="40.584" x="5.4896"/>
+  <rect id="rect2160" style="stroke:url(#linearGradient2240);fill:url(#linearGradient2238)" rx="0" ry="0" height="42" width="38" y="2.5" x="5.4896"/>
+  <rect id="rect2242" style="stroke:#fff;fill:none" rx="0" ry="0" height="40" width="36" y="3.5" x="6.4896"/>
+  <rect id="rect5436" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="7.9896" x="-42"/>
+  <rect id="rect5438" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="11.99" x="-42"/>
+  <rect id="rect5440" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="15.99" x="-42"/>
+  <rect id="rect5442" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="19.99" x="-42"/>
+  <rect id="rect5444" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="23.99" x="-42"/>
+  <rect id="rect5446" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="27.99" x="-42"/>
+  <rect id="rect5448" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="31.99" x="-42"/>
+  <rect id="rect5450" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="35.99" x="-42"/>
+  <rect id="rect5452" style="fill-opacity:0.096" transform="rotate(-90)" height="1" width="37" y="39.99" x="-42"/>
+  <rect id="rect5456" style="fill-opacity:0.096" height="1" width="33" y="5" x="7.9896"/>
+  <rect id="rect5458" style="fill-opacity:0.096" height="1" width="33" y="9" x="7.9896"/>
+  <rect id="rect5460" style="fill-opacity:0.096" height="1" width="33" y="13" x="7.9896"/>
+  <rect id="rect5462" style="fill-opacity:0.096" height="1" width="33" y="17" x="7.9896"/>
+  <rect id="rect5464" style="fill-opacity:0.096" height="1" width="33" y="21" x="7.9896"/>
+  <rect id="rect5466" style="fill-opacity:0.096" height="1" width="33" y="25" x="7.9896"/>
+  <rect id="rect5468" style="fill-opacity:0.096" height="1" width="33" y="29" x="7.9896"/>
+  <rect id="rect5470" style="fill-opacity:0.096" height="1" width="33" y="33" x="7.9896"/>
+  <rect id="rect5472" style="fill-opacity:0.096" height="1" width="33" y="37" x="7.9896"/>
+  <path id="path5478" style="fill-rule:evenodd;stroke:url(#linearGradient5484);stroke-width:1px;fill:url(#linearGradient5482)" d="m8.4896 27.135l2.9124-2.613 5.977 7.15 2.44-2.69 3.665-6.981 4.998 8.017 3.837-12.523 2.892 3.115 5.279-15.11v36h-32l-0.0004-14.365z"/>
+  <path id="path5480" style="stroke:url(#linearGradient5486);stroke-width:1px;fill:none" d="m38.495 40.381l1.095-29.222-4.219 11.474-2.551-3.151-4.027 12.675-5.262-8.11-2.724 5.423-3.361 3.426-6.07-6.847-1.7941 1.503-0.0923 13.127"/>
+ </g>
+</svg>

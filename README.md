@@ -62,9 +62,13 @@ python codigar.py
 Doble click en el archivo ejecutable "[*codigar.exe*](Windows/dist/codigar/codigar.exe)" que se encuentra en el directorio **Windows/dist/codigar**
 
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setCant.png?raw=true)
+
 Luego del mensaje de bienvenida CoDigAR solicitará la cantidad de muestras a analizar
+
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/examinar.png?raw=true)
-Para cada una de allas se debe seleccionar la imagen con extensión .png, un nombre representativo para facilitar el análisis y posteriormente indicar el color deseado en la nube de puntos
+
+Para cada una de ellas se debe seleccionar la imagen con extensión .png, un nombre representativo para facilitar el análisis y posteriormente indicar el color deseado en la nube de puntos
+
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setNombre.png?raw=true) -> ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setColor.png?raw=true)
 
 	NOTA: Para indicar correctamente el color antes mencionado, use la siguiente tabla:

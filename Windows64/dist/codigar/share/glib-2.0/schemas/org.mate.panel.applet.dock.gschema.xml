@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schemalist gettext-domain="appdock">
+   <schema id="org.mate.panel.applet.dock">
+     <key type="as" name="pinned-apps">
+      <default>[]</default>
+      <summary>the apps which have been pinned to the dock</summary>
+      <description>A string array containing the names of the apps which have been pinned to the dock.</description>
+    </key>
+    <key type="i" name="indicator-type">
+      <default>0</default>
+      <summary>The type of indicator (light, dark or none)</summary>
+      <description>The type of indicator (light or dark, or no indicator) which is displayed next to running apps.</description>
+    </key>
+    <key type="b" name="multi-ind">
+       <default>false</default>
+       <summary>Whether to display an indicator for each open window</summary>
+       <description>Whether to display an indicator for each open window (maximum 4) that an application has.</description>
+    </key>
+    <key type="b" name="apps-from-all-workspaces">
+       <default>true</default>
+       <summary>Whether to show unpinned apps from all workspaces</summary>
+       <description>Whether to show running unpinned apps from all workspaces </description>
+    </key>
+    <key type="b" name="win-from-cur-workspace-only">
+        <default>false</default>
+        <summary>Whether to show indicators and window list items for the current workspace only</summary>
+        <description>Whether to show indicators and window list items only for apps which have windows open on the current workspace</description>
+    </key>
+    <key type="b" name="first-run">
+       <default>true</default>
+       <summary>Whether this is the first time the applet has been run</summary>
+       <description>Whether this is the first time this particular instance of the applet has been run</description>
+    </key>
+    <key type="b" name="click-restore-last-active">
+       <default>true</default>
+       <summary>Specifies what to do when a running app's dock icon is click</summary>
+       <description>If set to true, the app's last running window is made active again. If false all of the app's windows are restored/unminimizes and the last active window is made active again</description>
+    </key>
+    <key type="b" name="change-panel-color">
+       <default>false</default>
+       <summary>Specifies whether MATE panels are to change colour according to the desktop wallpaper</summary>
+       <description>If set to true, the colour of the MATE panel will change whenever the desktop wallpaper is changed, and will be set to the dominant colour of the wallpaper image</description>
+    </key>
+    <key type="b" name="change-panel-color-dock-only">
+       <default>false</default>
+       <summary>When changing MATE panel colours, specfies whether or not all panels are to changed</summary>
+       <description>If set to false, the colour of all MATE panels are changed. If set to true only the color of the panel containing the dock will be changed will be set to the dominant colour of the wallpaper image</description>
+    </key>
+   </schema>
+</schemalist>

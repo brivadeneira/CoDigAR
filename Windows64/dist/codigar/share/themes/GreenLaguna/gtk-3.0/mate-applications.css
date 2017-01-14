@@ -1,0 +1,800 @@
+/************
+ * Caja *
+ ************/
+
+/* background of all views */
+CajaNavigationWindow .view,
+CajaNavigationWindow .view row {
+    background-color: shade(@base_color, 1.04);
+}
+
+/* borders of view and sidebar */
+CajaNavigationWindow CajaSidePane CajaPlacesSidebar.frame,
+CajaNavigationWindow CajaNotebook .vertical .vertical FMIconView.frame {
+    border-color: shade(@toolbar_gradient_base, 0.98);
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 2px;
+}
+
+/* FIXME, doesn't work */
+.caja-inactive-pane .view {
+	background-color: shade(@theme_bg_color, 0.9);
+}
+
+.caja-inactive-pane .notebook {
+	background-color: shade(@theme_bg_color, 0.9);
+}
+
+.caja-inactive-pane .notebook tab.top:active {
+	background-image: linear-gradient(to bottom,
+	                                  shade(@theme_bg_color, 0.8),
+	                                  shade(@theme_bg_color, 0.86) 40%,
+	                                  shade(@theme_bg_color, 0.88) 70%,
+	                                  shade(@theme_bg_color, 0.9));
+}
+
+.caja-inactive-pane .notebook .scrollbar.button:insensitive {
+	background-color: shade(@theme_bg_color, 0.9);
+	border-radius: 0px;
+}
+
+/* the small line between sidebar and view */
+CajaWindow GtkPaned.horizontal {
+    -GtkPaned-handle-size: 3px;
+    border-color: transparent;
+    background-color: @theme_bg_color;
+}
+
+CajaWindow GtkScrolledWindow.frame {
+	border-style: none;
+}
+
+CajaView .expander column:sorted:selected,
+CajaView .expander column:sorted:selected:hover {
+	background-image: none;
+	background-color: transparent;
+}
+
+CajaWindow .floating-bar {
+	font: italic;
+}
+
+CajaNavigationWindow GtkPaned.horizontal GtkPaned.horizontal .vertical .notebook .frame {
+    border-style: none;
+}
+
+CajaNavigationWindow GtkPaned.horizontal GtkPaned.horizontal .vertical .notebook tab {
+	padding: 3px 3px 0px;
+}
+
+CajaWindow .notebook .view.rubberband,
+CajaWindow .notebook .rubberband {
+	background-color: alpha(@theme_selected_bg_color, 0.35);
+	border-radius: 6px;
+}
+
+/* Caja pathbar */
+CajaNavigationWindow .horizontal .vertical .horizontal .vertical .horizontal CajaPathBar .button ,
+CajaNavigationWindow .horizontal .vertical .horizontal .vertical .horizontal .button.image-button {
+    padding: 4px;
+}
+
+/* View toogle button */
+CajaNavigationWindow .toolbar.horizontal.primary-toolbar .vertical .button {
+        padding: 6px;
+}
+
+/* Caja places bar */
+/* close button */
+CajaSidePane GtkButton.button.flat {
+    border-style: solid;
+    border-color: shade(@button_border, 1.1);
+    border-radius: 3px;
+    padding: 4px 2px;
+}
+
+CajaSidePane GtkButton.button.flat:hover {
+    border-radius: 3px;
+    padding: 4px 2px;
+}
+
+/* places button */
+CajaSidePane GtkToggleButton.button.flat,
+CajaSidePane GtkToggleButton.button.flat:hover  {
+    padding: 4px 5px;
+}
+
+/* caja sidebar */
+CajaWindow FMTreeView .view,
+CajaWindow CajaNotesViewer .view,
+CajaWindow CajaPlacesSidebar .view,
+CajaWindow CajaHistorySidebar .view,
+CajaWindow CajaInformationPanel GtkVBox,
+CajaWindow CajaEmblemSidebar GtkViewport {
+    background-color: shade(@theme_bg_color, 1.02);
+    border-width: 0px;
+}
+
+CajaWindow FMTreeView .frame,
+CajaWindow CajaNotesViewer .frame,
+CajaWindow CajaPlacesSidebar .frame,
+CajaWindow CajaHistorySidebar .frame,
+CajaWindow CajaEmblemSidebar .frame {
+    border-width: 0px;
+}
+
+CajaWindow FMTreeView .scrollbar.button,
+CajaWindow CajaNotesViewer .scrollbar.button,
+CajaWindow CajaEmblemSidebar .scrollbar.button,
+CajaWindow CajaPlacesSidebar .scrollbar.button,
+CajaWindow CajaHistorySidebar .scrollbar.button {
+    color: transparent;
+}
+
+CajaWindow FMTreeView .scrollbar.button:hover,
+CajaWindow CajaNotesViewer .scrollbar.button:hover,
+CajaWindow CajaEmblemSidebar .scrollbar.button:hover,
+CajaWindow CajaPlacesSidebar .scrollbar.button:hover,
+CajaWindow CajaHistorySidebar .scrollbar.button:hover {
+    color: @theme_fg_color;
+}
+
+CajaWindow FMTreeView .cell:selected,
+CajaWindow FMTreeView *.cell:selected,
+CajaPlacesSidebar .cell:selected,
+CajaPlacesSidebar *.cell:selected,
+CajaWindow CajaHistorySidebar .cell:selected,
+CajaWindow CajaHistorySidebar *.cell:selected {
+    background-image:  linear-gradient(to bottom,
+                                       shade(@theme_bg_color, 1.3),
+                                       shade(@theme_bg_color, 0.73));
+    color: @theme_text_color;
+    border-radius: 2px;
+}
+
+CajaWindow FMTreeView .cell:selected:focus,
+CajaWindow FMTreeView *.cell:selected:focus,
+CajaPlacesSidebar .cell:selected:focus,
+CajaPlacesSidebar *.cell:selected:focus,
+CajaWindow CajaHistorySidebar .cell:selected:focus,
+CajaWindow CajaHistorySidebar *.cell:selected:focus {
+    color: @theme_text_color;
+    background-image:  linear-gradient(to top,
+                                       shade(@theme_bg_color, 1.3),
+                                       shade(@theme_bg_color, 0.73));
+}
+
+CajaWindow FMTreeView .cell.image:selected,
+CajaWindow FMTreeView .cell.image:selected:focus,
+CajaPlacesSidebar .cell.image:selected,
+CajaPlacesSidebar .cell.image:selected:focus,
+CajaWindow CajaHistorySidebar .cell.image:selected,
+CajaWindow CajaHistorySidebar .cell.image:selected:focus {
+    color: shade(@theme_selected_bg_color, 0.75);
+}
+
+
+CajaWindow .question,  /* why question for trash? */
+CajaWindow .info,
+CajaTrashBar.info,
+CajaXContentBar.info,
+CajaQueryEditor.info,
+CajaSearchBar.info {
+	background-color: @theme_bg_color;
+}
+
+CajaSearchBar.info {
+	border-radius: 0px;
+}
+
+CajaWindow NautilusQueryEditor .toolbar,
+CajaWindow .notebook NautilusQueryEditor .toolbar {
+	background-image: none;
+	background-color: transparent;
+	padding: 5px 7px;
+}
+
+.caja-canvas-item,
+EelEditableLabel.entry {
+	border-radius: 4px;
+}
+
+/* view */
+CajaNavigationWindow.background .view.caja-canvas-item {
+    color: @theme_fg_color;
+	text-shadow: none;
+}
+
+CajaNavigationWindow.background .view.caja-canvas-item:active,
+CajaNavigationWindow.background .view.caja-canvas-item:selected {
+    color: @theme_selected_fg_color;
+}
+
+/**** Desktop Drawn ***/
+CajaDesktopWindow.background FMIconContainer.view EelEditableLabel.entry {
+   border-image: none;
+   text-shadow: none;
+}
+
+CajaDesktopWindow.background .caja-canvas-item {
+	color: @theme_selected_fg_color;
+    text-shadow: 1px 1px alpha (#000000, 0.8);
+}
+
+CajaDesktopWindow.background .caja-canvas-item:active {
+	color: @theme_text_color;
+}
+
+CajaDesktopWindow.background .caja-canvas-item:selected {
+	color: @theme_selected_fg_color;
+}
+
+CajaDesktopWindow.background .caja-canvas-item:active,
+CajaDesktopWindow.background .caja-canvas-item:prelight,
+CajaDesktopWindow.background .caja-canvas-item:selected {
+	text-shadow: none;
+}
+
+/****************
+ * Mate-Panel *
+ ****************/
+
+/* first make all transparent */
+PanelToplevel.background.horizontal {
+    background-color: transparent;
+}
+
+WnckSelector.menubar,
+PanelMenuBar.menubar,
+WnckSelector GtkMenuItem,
+PanelMenuBar GtkMenuItem,
+MatePanelApplet GtkToggleButton.button {
+    border-image: none;
+    border-color: transparent;
+    background-image: none;
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* let's started */
+/* the panel bar itself */
+PanelToplevel.background.horizontal {
+    background-color: @theme_bg_color;
+}
+
+.mate-panel-menu-bar {
+    background-color: @theme_bg_color;
+    background-image: none;
+    /* normal panel */
+    color: @theme_fg_color;
+    /* transparent panel with dark wallpaper*/
+/*    color: @theme_selected_fg_color; */
+    text-shadow: none;
+}
+
+/* workaround to avoid unwanted black frames if switching compositor on/off */
+.mate-panel-menu-bar .window-frame.csd.popup {
+    box-shadow: none;
+}
+
+/* panel grip */
+PanelToplevel.background {
+    border-radius: 2px;
+/* enable for making borders visible */
+/*    box-shadow: inset  0px  1px shade (@theme_selected_bg_color, 1.0),
+                inset  1px  0px shade (@theme_bg_color, 1.0),
+                inset -1px  0px shade (@theme_bg_color, 1.0),
+                inset  0px -1px shade (@theme_bg_color, 1.0); */
+}
+
+/* hide buttons */
+PanelToplevel.background .button {
+    color: @theme_fg_color;
+    background: transparent;
+    border-image: none;
+    border-radius: 0px;
+    border-style: none;
+    padding: 0px;
+    box-shadow: none;
+}
+
+PanelToplevel.background .button:hover {
+    border-radius: 3px;
+    border-image: none;
+    border-style: solid;
+    border-color: shade(@button_border, 1.1);
+    background-image: linear-gradient(to bottom,
+                                      shade(@button_gradient_color_b, 0.7),
+                                      @theme_bg_color 50%,
+                                      shade(@button_gradient_color_a, 1.5));
+}
+
+PanelToplevel.background .button:hover:active {
+    border-radius: 3px;
+    color: @theme_fg_color;
+    border-style: solid;
+    background-image: linear-gradient(to bottom,
+                                      shade(@button_gradient_color_a, 1.5),
+                                      @theme_bg_color 40%,
+                                      shade(@button_gradient_color_b, 0.4));
+}
+
+MatePanelApplet {
+    border-width: 0;
+}
+
+/* the grid left from wnckpager and wncktasklist */
+MatePanelAppletFrameDBus {
+    background-image: -gtk-scaled(url("assets/panel-grid.svg"));
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-position: left;
+}
+
+PanelSeparator.mate-custom-panel-background {
+    border-width: 0;
+    background-image: -gtk-gradient (linear, left top, left bottom,
+                                     from (shade (@theme_bg_color, 0.96)),
+                                     to (shade (@theme_bg_color, 1.05)));
+    color: shade (@theme_selected_bg_color, 1.65);
+    text-shadow: none;
+}
+
+/* main menu */
+PanelMenuBar.menubar .menuitem {
+    transition: all 300ms ease-out;
+    text-shadow: none;
+}
+
+/* set selected menubar button */
+PanelMenuBar.menubar .menuitem:hover {
+    background-image: none;
+    background-color: shade(@theme_selected_bg_color, 1.1);
+    color: @theme_selected_fg_color;
+    border-style: none;
+    border-image: none;
+    border-radius: 3px 3px 0px 0px;
+    border-width: 0px;
+}
+
+/* set normal menubar menuitem */
+PanelMenuBar.menubar .menu .menuitem {
+    padding: 6px;
+}
+
+/* set selected menubar menuitem */
+PanelMenuBar.menubar .menu .menuitem:hover {
+    background-image:  linear-gradient(to bottom,
+                                      shade(@theme_selected_bg_color, 1.6),
+                                      shade(@theme_selected_bg_color, 0.6));
+    color: @theme_selected_fg_color;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-image: url("assets/menu-border.svg") 2 / 2px stretch;
+}
+
+/* desktop-applet, clockapplet, drivemount, character-map,
+dictionary */
+MatePanelApplet .button,
+MatePanelApplet .button.flat {
+    transition: all 400ms ease-out;
+    background-image: none;
+    padding: 4px 3px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    text-shadow: none;
+    color: @theme_fg_color;
+}
+
+MatePanelApplet .button:hover,
+MatePanelApplet .button:active,
+MatePanelApplet .button:checked,
+MatePanelApplet .button:active:hover
+MatePanelApplet .button:checked:hover,
+MatePanelApplet .button.flat:hover,
+MatePanelApplet .button.flat:active,
+MatePanelApplet .button.flat:checked,
+MatePanelApplet .button.flat:active:hover,
+MatePanelApplet .button.flat:checked:hover {
+    background-image: linear-gradient(to bottom,
+                                      @button_gradient_color_b,
+                                      @button_gradient_color_a);
+}
+
+/*Wncklist */
+WnckTasklist .button {
+    transition: all 400ms ease-out;
+    padding: 2px;
+    border-radius: 3px;
+    border-width: 1px;
+    border-style: solid;
+    text-shadow: none;
+    color: @theme_fg_color;
+    background-image: -gtk-gradient (radial,
+                      0.5 -2.0, 2.0,
+                      0.5 -2.0, 3.0,
+                      from (shade(@button_gradient_color_a, 1.5)),
+                      color-stop (0.42, shade(@button_gradient_color_a, 0.7)),
+                      color-stop (0.43, @theme_bg_color),
+                      to (shade(@button_gradient_color_b, 0.7)));
+}
+
+WnckTasklist .button:checked:hover,
+WnckTasklist .button:checked,
+WnckTasklist .button:active:hover,
+WnckTasklist .button:active {
+    border-radius: 3px;
+    color: @theme_fg_color;
+    border-style: solid;
+    background-image: linear-gradient(to bottom,
+                                      shade(@button_gradient_color_b, 0.7),
+                                      @theme_bg_color 50%,
+                                      shade(@button_gradient_color_a, 1.5));
+}
+
+WnckTasklist .button:hover {
+    border-radius: 3px;
+    border-image: none;
+    border-style: solid;
+    border-color: shade(@button_border, 1.1);
+    background-image: linear-gradient(to bottom,
+                                      shade(@button_gradient_color_a, 1.5),
+                                      shade(@button_gradient_color_a, 0.7) 39%,
+                                      @theme_bg_color 40%,
+                                      shade(@less_dark_color, 0.4));
+}
+
+/* set button WnckSelector */
+WnckSelector.menubar .menuitem {
+    border-radius: 3px;
+    color: @theme_fg_color;
+    border-style: solid;
+}
+
+/* set selected button WnckSelector */
+WnckSelector.menubar .menuitem:hover {
+    background-image: linear-gradient(to bottom,
+                                      shade(@button_gradient_color_b, 0.7),
+                                      @theme_bg_color 50%,
+                                      shade(@button_gradient_color_a, 1.5));
+    border-image: url("assets/button-active-border.svg") 3 / 3px stretch;
+}
+
+/* set WnckSelector menuitem */
+WnckSelector.menubar .menu .menuitem {
+    background-image:  none;
+    color: @theme_selected_fg_color;
+    border-style: none;
+    border-width: 0px;
+    border-radius: 0px;
+}
+
+/* set WnckSelector selected menuitem */
+WnckSelector.menubar .menu .menuitem:hover {
+    background-image:  linear-gradient(to bottom,
+                                       shade(@theme_selected_bg_color, 1.6),
+                                       shade(@theme_selected_bg_color, 0.6));
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 3px;
+    border-image: url("assets/menu-border.svg") 2 / 2px stretch;
+}
+
+WnckPager {
+    background-image: none;
+    border-color: transparent;
+    background-color: transparent;
+    text-shadow: none;
+}
+
+/* selected WnckPager */
+WnckPager:selected {
+    background-image: linear-gradient(to bottom,
+                                      shade (@wnckpager_bg_color, 1.65),
+                                      shade (@wnckpager_bg_color, 0.75));
+}
+
+/* prelight of WnckPager */
+WnckPager:hover {
+    background-image: linear-gradient(to bottom,
+                                      shade (@wnckpager_bg_color, 0.75),
+                                      shade (@wnckpager_bg_color, 1.65));
+}
+
+/* drivemount */
+DriveList .button,
+DriveList .button.flat {
+    padding: 4px 5px;
+    border-radius: 3px;
+    border-color: transparent;
+    border-image: none;
+    box-shadow: none;
+}
+
+ClockBox,
+.mate-panel-menu-bar.menubar,
+MatePanelApplet > GtkMenuBar.menubar {
+    font: normal;
+}
+
+/* no background for icon-padding area */
+GtkTrayIcon.background {
+    background-color: transparent;
+}
+
+NaTrayApplet {
+    -NaTrayApplet-icon-padding: 3px;
+    -NaTrayApplet-icon-size: 16;
+}
+
+/* system-monitor-applet */
+MatePanelApplet .horizontal .vertical .frame {
+    background-color: transparent;
+    border-style: none;
+    box-shadow: none;
+    border-radius: 0px;
+}
+/* Classic icon style */
+.mate-panel-menu-bar {
+    -PanelMenuBar-icon-visible: true;
+}
+
+/* volume applet, brightness applet */
+.mate-panel-applet-slider {
+    background: transparent;
+}
+
+.mate-panel-applet-slider .frame {
+    background-color: @theme_bg_color;
+    border-image: none;
+    border-style: solid;
+    border-radius:3px;
+    padding: 1px;
+    margin: 0px;
+}
+
+.mate-panel-applet-slider .frame .frame{
+    background-color:transparent;
+    border-style: none;
+    box-shadow: none;
+}
+
+.mate-panel-applet-slider .frame .button {
+    padding: 4px 0px;
+    margin: 0px;
+}
+
+.mate-panel-applet-slider .frame .button:insensitive {
+    color: @insensitive_fg_color;
+    background-image: none;
+    border-image: none;
+    border-color: @theme_bg_color;
+
+}
+
+CalendarWindow#MatePanelPopupWindow {
+	border-radius: 3px;
+}
+
+/****************
+ * Mate-Terminal *
+ ****************/
+
+/* Background mate-terminal, this isn't the normal way to style that! */
+TerminalWindow .entry {
+    -TerminalWindow-background-darkness: 0.95;
+    background-color: @selected_fg_color;
+    color: @theme_text_color;
+}
+
+/*********
+ * Pluma *
+ *********/
+
+/* Pluma status bar */
+PlumaWindow .button.flat {
+    border-style: solid;
+    border-color: shade(@button_border, 1.1);
+    border-radius: 5px;
+}
+
+PlumaWindow .button.flat,
+PlumaWindow .button.flat:hover {
+    border-radius: 5px;
+}
+
+/* surpress styling of close button */
+PlumaWindow .notebook tab .button.flat,
+PlumaWindow .notebook tab .button.flat:hover {
+    border-color: transparent;
+    background-color: transparent;
+    background-image: none;
+    box-shadow: inset 0 1px rgba(255,255,255,0), 0 1px rgba(255,255,255,0);
+    text-shadow: none;
+    icon-shadow: none;
+    border-image: none;
+}
+
+PlumaCloseButton.button.flat,
+PlumaCloseButton.button.flat:hover,
+PlumaCloseButton:prelight.button.flat,
+PlumaCloseButton:prelight.button.flat:hover {
+    padding: 0px;
+}
+
+/* close button tab text view */
+PlumaWindow .vertical .horizontal .vertical .notebook .horizontal PlumaCloseButton.button.flat,
+PlumaWindow .vertical .horizontal .vertical .notebook .horizontal PlumaCloseButton.button.flat:hover {
+    padding: 2px 0px;
+}
+
+/* pluma line numbers */
+PlumaView {
+    background-color: @theme_bg_color;
+}
+
+/* Printpreview */
+PlumaPrintPreview.vertical .toolbar.horizontal {
+    padding: 0px;
+}
+
+PlumaPrintPreview.vertical .toolbar.horizontal GtkToolItem .horizontal .entry {
+    padding: 4px 6px;
+}
+
+PlumaPrintPreview.vertical .toolbar.horizontal .button.image-button,
+PlumaPrintPreview.vertical .toolbar.horizontal .button.flat.image-button {
+    padding: 0px;
+}
+
+PlumaPrintPreview.vertical .toolbar.horizontal .button.text-button,
+PlumaPrintPreview.vertical .toolbar.horizontal .button.flat.text-button {
+    padding: 0px 8px;
+    border-radius: 2px;
+}
+
+PlumaPrintPreview.vertical GtkLayout {
+    background-color: @theme_main_color;
+}
+
+/* sidebar file-browser */
+PlumaPanel.vertical {
+    border-radius: 3px 3px 3px 3px;
+    border-width: 1px 1px 0px 0px;
+    border-style: solid;
+    border-color: @borders;
+}
+
+PlumaPanel.vertical .notebook {
+    background-color: shade (@theme_bg_color, 1.04);
+    border-style: solid;
+    border-width: 0px 1px 1px 1px;
+    border-radius: 0px 0px 3px 3px;
+    border-color: @borders;
+}
+
+PlumaFileBrowserWidget.vertical .frame {
+    border-width: 1px 0px 1px 1px;
+    border-radius: 0px;
+}
+
+PlumaFileBrowserWidget.vertical .frame PlumaFileBrowserView{
+    background-color: shade(@theme_bg_color, 1.02);
+}
+
+PlumaPanel.vertical .horizontal .horizontal GtkImage {
+    padding: 0px;
+}
+
+PlumaFileBrowserWidget.vertical .toolbar.horizontal {
+    padding: 5px 0px;
+}
+
+PlumaFileBrowserWidget.vertical .toolbar.horizontal .button.flat,
+PlumaFileBrowserWidget.vertical .toolbar.horizontal .button.menu-button,
+PlumaFileBrowserWidget.vertical .toolbar.horizontal .button.image-button,
+PlumaFileBrowserWidget.vertical .toolbar.horizontal .button.flat.menu-button,
+PlumaFileBrowserWidget.vertical .toolbar.horizontal .button.flat.image-button {
+    padding: 3px;
+}
+
+PlumaFileBrowserWidget.vertical GtkExpander {
+    padding: 4px;
+}
+
+/***********************
+ * Mate-Control-Center *
+ ***********************/
+
+/* background */
+ShellWindow AppResizer .view {
+    background-color: shade(@theme_main_color, 1.00)
+}
+
+ShellWindow .button.flat {
+    border-image: none;
+}
+
+/* button hover of applications */
+ShellWindow GtkScrolledWindow .button.flat:hover {
+    border-radius: 12px;
+}
+
+/******************************
+ * mate-appearance-properties *
+ ******************************/
+
+/* mate-appearance-properties view */
+GtkDialog GtkScrolledWindow .view {
+    background-color: shade(@base_color, 1.06)
+}
+
+/* atril and eom */
+EggToolbarEditor.vertical GtkScrolledWindow .frame {
+    background-color: shade(@base_color, 1.04);
+    border-color: @borders;
+    border-width: 1px;
+    border-radius: 0px;
+    border-style: solid;
+}
+
+/*******
+ * Eom *
+ *******/
+
+EomThumbNav .button.flat {
+    border-color: @borders;
+    border-image: none;
+}
+
+EomThumbNav .button.flat:first-child {
+    border-radius: 4px 0px 0px 4px;
+    border-width: 1px 0px 1px 1px;
+    background-image: linear-gradient(to left,
+                                      @button_gradient_color_a,
+                                      @button_gradient_color_b);
+}
+
+EomThumbNav .button.flat:last-child {
+    border-radius: 0px 4px 4px 0px;
+    border-width: 1px 1px 1px 0px;
+    background-image: linear-gradient(to right,
+                                      @button_gradient_color_a,
+                                      @button_gradient_color_b);
+}
+
+EomThumbNav .button.flat:hover:first-child {
+    background-image: linear-gradient(to left,
+                                      @button_hover_gradient_color_a,
+                                      @button_hover_gradient_color_b);
+}
+
+EomThumbNav .button.flat:hover:last-child {
+    background-image: linear-gradient(to right,
+                                      @button_hover_gradient_color_a,
+                                      @button_hover_gradient_color_b);
+}
+
+EomThumbNav .button.flat:insensitive {
+    background-image: none;
+    border-color: transparent;
+}
+
+.lock-dialog {
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: @wm_csd_solid_border_color;
+    /* not sure if box-shadow works here */
+    box-shadow: 0 0 0 1px @wm_border, 0 2px 8px 3px @wm_shadow;
+}
+
+.lock-dialog .frame {
+    border-radius: 3px;
+    border-style: none;
+    border-width: 0px;
+}
+

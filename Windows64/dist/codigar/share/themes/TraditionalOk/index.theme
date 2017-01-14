@@ -1,0 +1,47 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=TraditionalOk
+Comment=Port of Clearlooks-Phenix
+Comment[be]=Адаптацыя Clearlooks-Phenix
+Comment[bg]=Адаптация на Clearlooks-Phenix тема
+Comment[ca]=Adaptació de Clearlooks-Phenix
+Comment[cs]=Port Clearlooks-Phenix
+Comment[da]=Port af Clearlooks-Phenix
+Comment[de]=Übertragung von Clearlooks-Phenix
+Comment[en_AU]=Port of Clearlooks-Phenix
+Comment[en_GB]=Port of Clearlooks-Phenix
+Comment[es]=Porte de Clearlooks-Phenix
+Comment[fr]=Adaptation de Clearlooks-Phenix
+Comment[gl]=Versión de Clearlooks-Phenix
+Comment[hr]=Prenesena tema Clearlooks-Phenix
+Comment[hu]=A Clearlooks-Phenix asztaltéma egyik változata
+Comment[id]=Porting dari Clearlooks-Phenix
+Comment[it]=Porting di Clearlooks-Phenix
+Comment[ja]=Clearlooks-Phenixの移植版
+Comment[ko]=클리어룩스-피닉스 계열
+Comment[lt]=Perkelta Clearlooks-Phenix
+Comment[ms]=Port Clearlooks-Phenix
+Comment[nb]=Port av Clearlooks-Phenix
+Comment[nl]=Port of Clearlooks-Phenix
+Comment[pl]=Port motywu Clearlooks-Phenix
+Comment[pt]=Versão MATE do tema Clearlooks-Phenix
+Comment[pt_BR]=Porte do Clearlooks-Phenix
+Comment[ro]=Portul de Clearlooks-Phenix
+Comment[ru]=Порт Clearlooks-Phenix
+Comment[sk]=Port témy Clearlooks-Phenix
+Comment[sl]=Priredba Clearlooks-Phenix teme
+Comment[sr]=Изведба Феникса чистог изгледа
+Comment[sv]=Portering av Clearlooks-Phenix
+Comment[tr]=Clearlooks-Phenix uyarlaması
+Comment[uk]=Порт Clearlooks-Phenix
+Comment[zh_CN]=Clearlooks-Phenix 的移植版本
+Comment[zh_TW]=Clearlooks-Phenix 的移植版本
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=TraditionalOk
+MetacityTheme=TraditionalOk
+IconTheme=mate
+CursorTheme=mate
+CursorSize=16
+ButtonLayout=:minimize,maximize,close
