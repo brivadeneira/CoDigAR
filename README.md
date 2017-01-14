@@ -7,11 +7,13 @@ El usuario debe, a partir de una fotografía de la roca a analizar, determinar, 
 - Determinar y almacenar el código de colores presente en cada pixel de la muestra.
 - Convertir dicho código a RGB.
 - Exponer los resultados en un gráfico 3D.
+- Visualizar el espectro de cada muestra.
+- Visualizar las cualidades HVS de cada muestra.
 - Permitir análisis cuantitativo, cualitativo y comparativo.
 
 ## Capturas
 
-Los resultados de la implementación de [CuanCTo](https://github.com/brivadeneira/CoDigAR/wiki/4.1-CuanCTo) para las siguientes tres muestras,
+Se implementa [CuanCTo](https://github.com/brivadeneira/CoDigAR/wiki/4.1-CuanCTo) para las siguientes tres muestras,
 
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/ar.png?raw=true)
 Arte rupestre - [Peñas Coloradas](https://es.wikiloc.com/wikiloc/view.do?id=1319853), dpto de Antofagasta de la Sierra, provincia de Catamarca, Argentina.
@@ -22,12 +24,18 @@ Arte rupestre - [Peñas Coloradas](https://es.wikiloc.com/wikiloc/view.do?id=131
 
 ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/m2.png?raw=true) muestra 2, sector del motivo serpentiforme, puntos verdes.
 
-son:
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/examinar.png?raw=true) -> ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setNombre.png?raw=true) -> ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setColor.png?raw=true)
 
-![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/ploteo1.png?raw=true) 
+Resultados:
 
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/plot3D.png?raw=true)
+Nube de puntos RGB
 
-![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/ploteo2.png?raw=true) 
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/fft.png?raw=true)
+Transformada bidimensional de Fourier
+
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/hvs.png?raw=true)
+Histograma HVS
 
 ## Guía de uso rápido
 
@@ -38,18 +46,31 @@ son:
 - [numpy](http://www.numpy.org/)
 - [matplotlib](http://matplotlib.org/1.4.3/mpl_toolkits/index.html)
 
-### Sintaxis
+Descargar el repositorio actual
+### GNU/Linux
+```shell
+sudo apt-get install python-opencv
+pip install numpy
+sudo pip install matplotlib
+apt-get install python-tk
+```
+```shell
+python codigar.py
+```
 
-```
-python codigar.py ruta_muestra0 color0 ... ruta_muestraN colorN
-```
-#### Ejemplo
-El siguiente código reporta los resultados expuestos en las capturas:
-```
-python codigar.py img/demo/m0.png red img/demo/m1.png blue img/demo/m2.png green
-```
+### Windows
+Doble click en el archivo ejecutable "[*codigar.exe*](Windows/dist/codigar/codigar.exe)" que se encuentra en el directorio **Windows/dist/codigar**
 
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setCant.png?raw=true)
+Luego del mensaje de bienvenida CoDigAR solicitará la cantidad de muestras a analizar
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/examinar.png?raw=true)
+Para cada una de allas se debe seleccionar la imagen con extensión .png, un nombre representativo para facilitar el análisis y posteriormente indicar el color deseado en la nube de puntos
+![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setNombre.png?raw=true) -> ![](https://github.com/brivadeneira/CoDigAR/blob/master/img/demo/capturas/setColor.png?raw=true)
 
+	NOTA: Para indicar correctamente el color antes mencionado, use la siguiente tabla:
+![](https://i.stack.imgur.com/fMx2j.png)
+
+Lo siguiente es analizar los gráficos que CoDigAR le provee correspondientes a separación de canales RGB, transformada bidimensional de Fourier y propiedades HVS.
 ## Más información
 
 CoDigAR es un proyecto académico argentino que permite obtener más información sobre el arte rupestre, mediante el análisis de un tipo particular de rasgo: las imagenes, más específicamente aquellas manifestaciones gráficas de antiguas culturas, a través del uso de la tecnología y herramientas libres y mediante el trabajo en conjunto de dos campos científicos: -Arqueología e Ingeniería en
